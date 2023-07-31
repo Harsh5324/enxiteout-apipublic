@@ -70,4 +70,4 @@ app.use("/api/teams", TeamsRoute);
 app.use("/api/caseStudies", caseStudyRoute);
 app.use("/api/contacts", contactsRoute);
 
-app.listen(process.env.PORT || "5000");
+app.listen(8000);
