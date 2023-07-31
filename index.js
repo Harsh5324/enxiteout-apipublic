@@ -33,7 +33,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 console.log("images path", path.join(__dirname, "/images"));
 const uri =
-    "HTTP://localhost:27017/";
+    "mongodb://localhost:27017";
 console.log("uri", uri);
 mongoose
     .connect(uri, {
